@@ -17,8 +17,8 @@
 				</thead>
 
 				<tbody align="center">
-                <?php foreach($get_data_transaction as $datas) : ?>
 					<tr>
+                    <?php foreach ($get_data_transaction as $datas) : ?>
 						<td><?php echo $datas->date;?></td>
 						<td><?php echo $datas->id;?></td>
 						<td><?php echo $datas->id_order;?></td>
@@ -28,8 +28,8 @@
 						<td><?php echo $datas->cost;?></td>
 						<td><?php echo $datas->money;?></td>
 						<td><?php echo $datas->change;?></td>
+                    <?php endforeach ; ?>
                     </tr>
-                <?php endforeach; ?>
 				</tbody>
 
 			</table>
