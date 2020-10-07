@@ -28,6 +28,8 @@ class Transaction extends CI_Controller{
     }
     public function transaction_pdf($id){
         ob_start();
+        $data['g_transaction'] = $this->model_pos->get_transaction();
+        $data['c_transaction'] = $this->model_pos->count_transaction();
         $data['get_data_transaction'] = $this->model_pos->get_data_transaction($id);
         $this->load->view('transaction/preview_transaction',$data);
 

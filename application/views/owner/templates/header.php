@@ -29,6 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ranchers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
 </head>
 <style>
     body{
